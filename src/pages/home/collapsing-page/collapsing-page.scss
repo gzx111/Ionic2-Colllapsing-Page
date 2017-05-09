@@ -1,0 +1,26 @@
+collapsing-page {
+    ion-title{
+        text-align: center;
+    }
+
+    div[content] {
+        text-align: center;
+        color: #fff;
+        background-color: #440063;
+        padding: 12px;
+    }
+
+    div[root] {
+        height:100%;
+    }
+
+    .not-scroll {
+        pointer-events: none;
+        touch-action: none;
+        ::-webkit-scrollbar{  
+            display: none !important;  
+        }
+    }
+
+    
+}
